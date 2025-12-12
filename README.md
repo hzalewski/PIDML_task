@@ -44,6 +44,6 @@ Model został przetestowany na powiększonym zbiorze testowym (30% danych, ~2700
 **Wnioski:**
 Uzyskana wysoka precyzja oznacza, że model generuje bardzo mało fałszywych alarmów przy identyfikacji pacjentów w stanie zagrożenia życia, najczęściej myli się oznaczając pacjenta jako 1 (zgon), kiedy w rzeczywistości przeżył. Analiza wag modelu daje różne wnioski:
 * Sepsa u analizowanych pacjentów wiąże się z większą szansą przeżycia - mimo, że jest to śmiertelna i ciężka choroba, ma większą przeżywalność niż inne dostępne
-opcje (np. rak płuc), ale pamiętajmy, że analizowaliśmy tylko pacjentów w ciężkim stanie
+opcje (np. rak płuc), wynik ten tłumaczy fakt, że analizowano tylko pacjentów w ciężkim stanie
 * Decyzja o nieresuscytowaniu (DNR) jasno wiąże się z wiekszą szansą na zgon pacjenta
 * Mniejsza zamożność pacjenta wiąże się z większym ryzykiem zgonu
