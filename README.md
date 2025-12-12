@@ -33,7 +33,7 @@ Kluczowym elementem projektu było usunięcie zmiennych, które nie są dostępn
 * **Optymalizacja:** Wykorzystano `GridSearchCV` z 10-krotną walidacją krzyżową (CV) do optymalizacji parametrów modelu.
 * **Nierównowaga klas:** Zastosowano ważenie klas (`class_weight='balanced'`), aby model skuteczniej wykrywał przypadki zgonu (klasa mniejszościowa).
 
-## 📊 Wyniki
+## Wyniki
 
 Model został przetestowany na powiększonym zbiorze testowym (30% danych, ~2700 pacjentów), aby zapewnić wysoką wiarygodność statystyczną wyników.
 
