@@ -1,6 +1,10 @@
 # PIDML_task
 Repozytorium na zadanie wstępne z ML związane z udziałem w pracach dotyczących CERN
 
+Dataset: https://www.openml.org/search?type=data&sort=runs&id=46860&status=active
+
+Model: Logistic regression
+
 
 # Przewidywanie Śmiertelności Pacjentów
 
@@ -31,7 +35,7 @@ Kluczowym elementem projektu było usunięcie zmiennych, które nie są dostępn
 ### 4. Modelowanie
 * **Algorytm:** Regresja Logistyczna (Logistic Regression).
 * **Optymalizacja:** Wykorzystano `GridSearchCV` z 10-krotną walidacją krzyżową (CV) do optymalizacji parametrów modelu.
-* **Nierównowaga klas:** Zastosowano ważenie klas (`class_weight='balanced'`), aby model skuteczniej wykrywał przypadki zgonu (klasa mniejszościowa).
+* **Nierównowaga klas:** Zastosowano ważenie klas (`class_weight='balanced'`), aby model skuteczniej wykrywał przypadki zgonu (brak balansu klas, dwukrotnie więcej zgonów niż przeżyć).
 
 ## Wyniki
 
